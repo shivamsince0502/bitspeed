@@ -5,9 +5,6 @@
   "scripts": {
   "start": "prisma generate && ts-node-dev --respawn src/index.ts",
   "build": "npm install",
-  //"start": "node dist/index.js",
-  //"generate": "prisma generate",
-  //"migrate": "prisma migrate dev",
   "db:push": "prisma db push",
   "studio": "prisma studio",
   "postinstall": "prisma generate"
